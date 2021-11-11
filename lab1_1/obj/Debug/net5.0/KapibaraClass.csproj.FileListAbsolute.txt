@@ -1,0 +1,15 @@
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/bin/Debug/net5.0/KapibaraClass.deps.json
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/bin/Debug/net5.0/KapibaraClass.runtimeconfig.json
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/bin/Debug/net5.0/KapibaraClass.runtimeconfig.dev.json
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/bin/Debug/net5.0/KapibaraClass.dll
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/bin/Debug/net5.0/ref/KapibaraClass.dll
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/bin/Debug/net5.0/KapibaraClass.pdb
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.csproj.AssemblyReference.cache
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.AssemblyInfoInputs.cache
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.AssemblyInfo.cs
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.csproj.CoreCompileInputs.cache
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.dll
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/ref/KapibaraClass.dll
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.pdb
+/Users/karimkabirov/RiderProjects/KapibaraClass/KapibaraClass/obj/Debug/net5.0/KapibaraClass.genruntimeconfig.cache
