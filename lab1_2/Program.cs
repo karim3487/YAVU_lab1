@@ -19,11 +19,11 @@ namespace lab1_2
                 Console.WriteLine("\n------------------------------------------------");
                 Console.WriteLine("|                     Меню                     |");
                 Console.WriteLine("------------------------------------------------");
-                Console.WriteLine("|1. Капибара (класс Kapibara).                |");
-                Console.WriteLine("|2. Хомяк (класс Hamster).                    |");
-                Console.WriteLine("|3. Бобер (класс Beaver).                     |");
-                Console.WriteLine("|4. Крыска (класс Rat).                       |");
-                Console.WriteLine("|q. Выход из программы.                       |");
+                Console.WriteLine("|1. Капибара (класс Kapibara).                 |");
+                Console.WriteLine("|2. Хомяк (класс Hamster).                     |");
+                Console.WriteLine("|3. Бобер (класс Beaver).                      |");
+                Console.WriteLine("|4. Крыска (класс Rat).                        |");
+                Console.WriteLine("|q. Выход из программы.                        |");
                 Console.WriteLine("------------------------------------------------");
                 Console.WriteLine("Введите пункт меню: ");
 
@@ -126,7 +126,7 @@ namespace lab1_2
                                     break;
                                 
                                 case "5":
-                                    hamster.HidenNuts();
+                                    hamster.HiddenNuts();
                                     break;
                                 
                                 case "6":

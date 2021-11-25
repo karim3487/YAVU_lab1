@@ -157,7 +157,7 @@ namespace lab1_2
 
             Console.Write("Вес: ");
             var inputWeight = Console.ReadLine();
-            var isWeightConverted = int.TryParse(inputWeight, out var weight);
+            var isWeightConverted = float.TryParse(inputWeight, out var weight);
             if (isWeightConverted)
                 _weight = weight;
             else

@@ -11,7 +11,7 @@ namespace KapibaraClass
 {
     public class Kapibara
     {
-        private readonly string _roadentFamily;
+        private readonly string _rodentFamily;
         private int _age;
         private readonly string _name;
         private readonly string _sex;
@@ -24,7 +24,7 @@ namespace KapibaraClass
             _age = 15;
             _sex = "Муж";
             _weight = 35;
-            _roadentFamily = "Свинковые";
+            _rodentFamily = "Свинковые";
         }
 
         public Kapibara(Kapibara copy) // Конструктор копирования
@@ -33,7 +33,7 @@ namespace KapibaraClass
             _age = copy._age;
             _sex = copy._sex;
             _weight = copy._weight;
-            _roadentFamily = copy._roadentFamily;
+            _rodentFamily = copy._rodentFamily;
         }
 
         public Kapibara(int age, float weight) // Конструктор с некоторыми параметрами
@@ -43,13 +43,13 @@ namespace KapibaraClass
         }
 
         public Kapibara(string name = "Оксана", int age = 10, string sex = "Жен", float weight = 46,
-            string roadentFamily = "Свинковые") // Конструктор
+            string rodentFamily = "Свинковые") // Конструктор
         {
             _name = name;
             _age = age;
             _sex = sex;
             _weight = weight;
-            _roadentFamily = roadentFamily;
+            _rodentFamily = rodentFamily;
         }
 
         //-----------------------------КОНЕЦ Конструкторы----------------------------
@@ -80,10 +80,10 @@ namespace KapibaraClass
 
         // --------------------КОНЕЦ Геттеры и сеттеры--------------------------
         //  ------------------------Методы класса------------------------
-        public static void Advice()
+        public static void GetAdvice()
         {
             Console.WriteLine(
-                "Не откладывай лабы на последний момент как Кабиров Карим, собственно, автор этой работы)\n");
+                "Не откладывай лабы на последний момент!");
         }
 
         public void StartKap()
@@ -91,14 +91,14 @@ namespace KapibaraClass
             Console.WriteLine("Начинаем КАПИБАРТЬСЯ :3");
         }
 
-        public void Swiming()
+        public void Swimming()
         {
             Console.WriteLine("По-о-о-о-оплыли))");
         }
 
-        public string GetAdvice()
+        public string GetRodentFamily()
         {
-            return _roadentFamily;
+            return _rodentFamily;
         }
 
         public void Scratch()
@@ -112,7 +112,7 @@ namespace KapibaraClass
                 choice = int.Parse(Console.ReadLine());
                 if (choice == 1)
                     Console.WriteLine(
-                        "Капибара {0} благодарен тебе, а {0} у нас гений программирования. И теперь, когда тебе " +
+                        "Капибара {0} благодарен тебе, а {0} у нас гений программирования.\nИ теперь, когда тебе " +
                         "понадобится помощь с курсовой капибара {0} тебе поможет)))", Name);
                 else if (choice == 2)
                     Console.WriteLine(
@@ -136,14 +136,14 @@ namespace KapibaraClass
             if (Sex == "Жен")
             {
                 return string.Format(
-                    "  Капибара {0} приветствует!\nНаша {0} {1}, ее вес составляет {2}кг\nЕй {3}\n", _name,
-                    _weight > 45 ? "упитанная" : "голодает", _weight, _age);
+                    "  Капибара {0} приветствует!\nНаша {0} {1}, ее вес составляет {2}кг\nЕй {3}\n", Name,
+                    Weight > 45 ? "упитанная" : "голодает", Weight, Age);
             }
             else
             {
                 return string.Format(
-                    "  Капибара {0} приветствует!\nНаш {0} {1}, его вес составляет {2}кг\nЕму {3}\n", _name,
-                    _weight > 45 ? "упитанный" : "голодает", _weight, _age);
+                    "  Капибара {0} приветствует!\nНаш {0} {1}, его вес составляет {2}кг\nЕму {3}\n", Name,
+                    Weight > 45 ? "упитанный" : "голодает", Weight, Age);
             }
         }
         //  ------------------------КОНЕЦ Методы класса------------------------

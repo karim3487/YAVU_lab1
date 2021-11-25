@@ -63,18 +63,16 @@ namespace lab1_2
                 _weight > 45 ? "упитанный" : "голодает", _weight, _age, _kind, _cheeks);
         }
 
-        public void HidenNuts()
+        public void HiddenNuts()
         {
             Console.WriteLine("Сколько орешков вы хотите спрятать?");
-            int choice = 100;
-            while (choice > _cheeks)
-            {
-                choice = int.Parse(Console.ReadLine());
-                Console.WriteLine($"Вы можете спрятать  только {_cheeks} орешков(");
+            int choice;
+            choice = int.Parse(Console.ReadLine());
+                
                 if (choice > _cheeks)
-                    Console.Write("Попробуйте еще раз: ");
-            }
-            Console.Write("Орешки спрятаны!!!");
+                    Console.WriteLine($"Вы можете спрятать  только {_cheeks} орешков(");
+                else
+                    Console.Write("Орешки спрятаны!!!");
         }
     }
 }

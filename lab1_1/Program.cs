@@ -16,10 +16,11 @@ namespace KapibaraClass
                 Console.WriteLine("------------------------------------------------");
                 Console.WriteLine("| 1. Задать параметры объекта.                 |");
                 Console.WriteLine("| 2. Вывести свойства объекта.                 |");
-                Console.WriteLine("| 3. К какому семейсвту относится.             |");
+                Console.WriteLine("| 3. Получить совет от капибары(статический).  |");
                 Console.WriteLine("| 4. Начать капибариться.                      |");
                 Console.WriteLine("| 5. Поплавать.                                |");
                 Console.WriteLine("| 6. Почесать Капибару.                        |");
+                Console.WriteLine("| 7. К какому семейсвту относится.             |");
                 Console.WriteLine("| q. Выход из программы.                       |");
                 Console.WriteLine("------------------------------------------------");
                 Console.Write("Введите пункт меню: ");
@@ -63,16 +64,19 @@ namespace KapibaraClass
                         Console.WriteLine(kap);
                         break;
                     case "3":
-                        Console.WriteLine("Капибара относится к семейству " + kap.GetAdvice());
+                        Kapibara.GetAdvice();
                         break;
                     case "4":
                         kap.StartKap();
                         break;
                     case "5":
-                        kap.Swiming();
+                        kap.Swimming();
                         break;
                     case "6":
                         kap.Scratch();
+                        break;
+                    case "7":
+                        kap.GetRodentFamily();
                         break;
                 }
             } while (select != "q");
